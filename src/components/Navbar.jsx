@@ -4,7 +4,7 @@
 import { React, useState } from 'react'
 import { BiLogIn, BiLogOut, BiSearchAlt } from 'react-icons/bi';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
-import { GrClose } from 'react-icons/gr';
+import { VscChromeClose } from 'react-icons/vsc';
 import { Link, useNavigate } from "react-router-dom";
 import './Navbar.scss';
 
@@ -30,7 +30,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
     <div>
       <div className="side_menu" style={{left: sideState}}>
         <div className="closeBtnWrap">
-          <GrClose className="closeBtn" onClick={() => {setSideState('-100%'); }} />
+          <VscChromeClose className="closeBtn" onClick={() => {setSideState('-100%'); }} />
         </div>
         <ul className="side-menu-list">
           {menuList.map((menu) => (
