@@ -1,0 +1,22 @@
+:root {
+  --color-point: #cc2025; 
+  --color-gray: #666;
+  --color-dark: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+}
+div {
+  display: block;
+}
+ul,li {
+  list-style: none;
+}
+

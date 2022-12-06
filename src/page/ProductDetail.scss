@@ -1,0 +1,50 @@
+.detail-img {
+  width: 100%;
+}
+
+.detail-titleWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  .detail-title {
+    font-weight: bold;
+  }
+  .like {
+    font-size: 1.3rem;
+    cursor: pointer;
+    .heartFill {
+      color: var(--color-point);
+    }
+  }
+}
+.detail-price {
+  color: var(--color-point);
+  margin-bottom: 30px;
+}
+.new {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  color: var(--color-gray);
+}
+.choice {
+  font-size: 0.8rem;
+  margin-bottom: 30px;
+  color: var(--color-gray);
+}
+.detail-dropdown {
+  margin-bottom: 5px;
+  & > * {
+    width: 100%;
+  }
+}
+button {
+  width: 100%;
+}
+
+.btn:hover {
+  color: inherit;
+  background-color: inherit;
+  border-color: inherit;
+}
